@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻👨‍💻</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <div class="wrapper">
+      <div class="display container">
+        <header>
+          <div class="navbar">
+            <div class="nav-left">
+              <img src="./icons/iconoir_book.svg" class="book" alt="" />
+            </div>
+            <div class="nav-right">
+              <!-- <select name="lang" id="langs">
+                <option id="sans-serif" value="sansSerif">Sans Serif</option>
+                <option id="serif" value="serif">Serif</option>
+                <option id="mono" value="mono">Mono</option>
+              </select> -->
+
+              <!-- ---- -->
+              <div class="font-selector">
+                <div class="selected-font">
+                  <div class="font-name">Serif</div>
+                  <img src="./icons/Path 3.svg" alt="" />
+                </div>
+                <div class="font-options exit">
+                  <span class="Sans-Serif">Sans Serif</span>
+                  <span class="Serif">Serif</span>
+                  <span class="Mono">Mono</span>
+                </div>
+              </div>
+              <!-- --- -->
+              <span class="line"></span>
+
+              <div class="moon-labelIcon">
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider round"></span>
+                </label>
+                <img src="./icons/moon-light.png" id="lightMoon" alt="" />
+                <img
+                  src="./icons/moon-dark.png"
+                  id="darkMoon"
+                  class="none"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="searchPart">
+            <input type="text" placeholder="Search..." />
+            <img src="./icons/iconoir_search.png" alt="" />
+          </div>
+          <div class="result-part">
+            <div class="word">
+              <div class="wordPart">
+                <h1></h1>
+                <span id="trancription"></span>
+              </div>
+              <img src="./icons/audio-light.png" alt="" />
+              <audio src=""></audio>
+            </div>
+            <div id="meanings"></div>
+
+            <div class="sourse">
+              <p>Source</p>
+              <div class="link">
+                <a href="#">https://en.wiktionary.org/wiki/keyboard</a>
+                <img src="./icons/tabler_external-link.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <div class="not-found hide">
+      <img src="./icons/😕.svg" alt="" />
+      <h3>No Definitions Found</h3>
+      <p>
+        Sorry pal, we couldn't find definitions for the word you were looking
+        for. You can try the search again at later time or head to the web
+        instead.
+      </p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
